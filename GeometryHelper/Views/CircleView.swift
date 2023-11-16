@@ -20,6 +20,10 @@ struct CircleView: View {
                 .font(.largeTitle)
             
             Slider(value: $currentCircle.radius, in: 0...100)
+            
+            Text("\(currentCircle.diameter)")
+                .font(.largeTitle)
+
         }
         .padding()
     }
