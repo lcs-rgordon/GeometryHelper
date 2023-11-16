@@ -11,6 +11,7 @@
 		81EFBDDD2B06370B00C09502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EFBDDC2B06370B00C09502 /* Assets.xcassets */; };
 		81EFBDE02B06370B00C09502 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EFBDDF2B06370B00C09502 /* Preview Assets.xcassets */; };
 		81EFBDE92B063B7100C09502 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EFBDE82B063B7100C09502 /* CircleView.swift */; };
+		81EFBDEB2B0642E200C09502 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EFBDEA2B0642E200C09502 /* Circle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		81EFBDDC2B06370B00C09502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81EFBDDF2B06370B00C09502 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81EFBDE82B063B7100C09502 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		81EFBDEA2B0642E200C09502 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		81EFBDE72B063A6E00C09502 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				81EFBDEA2B0642E200C09502 /* Circle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				81EFBDE92B063B7100C09502 /* CircleView.swift in Sources */,
 				81EFBDD92B06370A00C09502 /* GeometryHelperApp.swift in Sources */,
+				81EFBDEB2B0642E200C09502 /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
